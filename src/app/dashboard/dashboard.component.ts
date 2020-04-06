@@ -9,6 +9,7 @@ import { Hero } from './../hero';
 })
 export class DashboardComponent implements OnInit {
   heroes: Hero[];
+  selectedHero: Hero;
 
   constructor(private heroService: HeroService) { }
 
