@@ -1,0 +1,33 @@
+.detail{
+    margin: 20px;
+}
+.detail h2 {
+    font-weight: 800;
+}
+.detail-id, .detail-name{
+    padding-top: 10PX;
+    display: flex;
+    align-items: baseline;
+}
+.detail-id .title, .detail-name .title{
+    flex: 0 0 60px;
+    color: #60a3bc;
+    font-weight: 800;
+}
+.detail-id span:nth-child(2){
+    color: #485460;
+}
+.detail-name input{
+    height: 30px;
+    border:solid 1px #d2dae2;
+    padding-left: 10px;
+}
+.detail-btn{
+    height: 25px;
+    margin-top: 10px;
+    padding: 0 10px;
+    background-color: #00b894;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+}
