@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'my-com1',
@@ -6,8 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./my-com1.component.css']
 })
 export class MyCom1Component implements OnInit {
-
   constructor() { }
+
+  @Input() heroDetail: string;
 
   ngOnInit(): void {
   }

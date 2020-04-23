@@ -1,0 +1,12 @@
+p {
+  animation: croll 2s infinite;
+}
+
+@keyframes croll {
+  from{
+    color: #fff;
+  }
+  to{
+    color: #000;
+  }
+}

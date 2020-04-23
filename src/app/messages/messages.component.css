@@ -1,0 +1,19 @@
+.message{
+  padding: 50px 20px;
+}
+.message-title {
+  color:  #00b894;
+  padding-right: 20px;
+}
+.message-clear{
+  padding: 5px 30px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color:  #00b894;
+  color: #fff;
+  font-size: large;
+}
+.message-item{
+  padding-top: 10px;
+}

@@ -24,10 +24,11 @@
 }
 .detail-btn{
     height: 25px;
-    margin-top: 10px;
+    margin: 10px 0;
     padding: 0 10px;
     background-color: #00b894;
     border: none;
     border-radius: 2px;
     color: #fff;
+    cursor: pointer;
 }
