@@ -1,4 +1,4 @@
-<p>my-com2 works!</p>
+<p class="my-com">my-com2 works!</p>
 <ul>
   <li *ngFor="let one of ones;let i = index; trackBy:trackFun">
     <span>{{one.name}}</span>
@@ -7,5 +7,5 @@
   </li>
 </ul>
 
-<button (click)="addOldId()">addOldId</button>
-<button (click)="addNewId()">addNewId</button>
+<button class="my-btn mar-r" (click)="addOldId()">addOldId</button>
+<button class="my-btn" (click)="addNewId()">addNewId</button>

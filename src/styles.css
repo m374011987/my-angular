@@ -23,3 +23,18 @@ h1 {
     margin: 0;
     padding: 0;
   }
+
+  .my-com {
+    padding-top: 20px;
+    font-weight: 800;
+  }
+  .my-btn{
+    height: 25px;
+    margin: 10px 0;
+    padding: 0 10px;
+    background-color: #00b894;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+}

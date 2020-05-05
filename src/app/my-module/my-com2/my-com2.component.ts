@@ -23,7 +23,7 @@ export class MyCom2Component implements OnInit {
   }
 
   trackFun(idx, item) {
-    console.log(idx, item);
+    // console.log(idx, item);
     return idx;
   }
 
@@ -31,7 +31,6 @@ export class MyCom2Component implements OnInit {
     this.ones.push({ name: 'zhoaliu', id: 1 });
   }
   addNewId() {
-    debugger
     this.ones.push({ name: 'zhoaliu', id: this.ones.length + 1 });
   }
 
