@@ -5,7 +5,7 @@ import { getLocaleFirstDayOfWeek } from '@angular/common';
 @Component({
   selector: 'my-com4-jiegou',
   templateUrl: './my-com4-jiegou.component.html',
-  styleUrls: ['./my-com4-jiegou.component.css']
+  styleUrls: ['./my-com4-jiegou.component.less']
 })
 export class MyCom4JiegouComponent extends MyComponent implements OnInit {
 

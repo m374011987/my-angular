@@ -9,7 +9,7 @@ enum Color2 { Red = 1, Green = 2, Blue = 3 };
 @Component({
   selector: 'my-com3',
   templateUrl: './my-com3.component.html',
-  styleUrls: ['./my-com3.component.css']
+  styleUrls: ['./my-com3.component.less']
 })
 export class MyCom3Component extends MyComponent implements OnInit {
   date: any = new Date();
