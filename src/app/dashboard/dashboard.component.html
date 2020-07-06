@@ -1,9 +1,0 @@
-<div class="dashboard">
-  <h3 class="dashboard-top">Top Heroes</h3>
-  <ul class="dashboard-list">
-    <li class="dashboard-item" *ngFor="let hero of heroes" (click)="selectedHero = hero"
-      routerLink="/detail/{{hero.id}}">
-      {{hero.name}}
-    </li>
-  </ul>
-</div>
